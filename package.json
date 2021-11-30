@@ -1,0 +1,33 @@
+{
+  "name": "tunnel-auth",
+  "version": "1.0.0",
+  "description": "Authorization template standard model using NextJS and Django.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install",
+    "check-format": "prettier --check .",
+    "check-lint": "lint --check .",
+    "format": "prettier --write .",
+    "pre-commit": "npm run check-format && npm run check-lint && npm run build"
+  },
+  "keywords": [],
+  "author": "SeemsChill - LocChau - ThaiDuong",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/react": "^1.7.2",
+    "next": "^12.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^12.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.5.0"
+  }
+}
